@@ -1,0 +1,4 @@
+
+GET https://api.thedogapi.com/v1/images/search
+Content-Type: application/json
+x-api-key: live_BnDUa48........

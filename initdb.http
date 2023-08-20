@@ -1,0 +1,134 @@
+https://jsonplaceholder.typicode.com/todos
+
+
+###
+POST https://crudcrud.com/api/8dc091c12fbb422da73321a0dccc73a0/todos
+Content-Type: application/json
+
+{
+    "userId": 1,
+    "title": "REST API Calls lernen",
+    "completed": false,
+    "priority" : 1,
+    "createdAt": "2022-01-20T14:33:23.741Z"
+  },
+
+###
+POST https://crudcrud.com/api/8dc091c12fbb422da73321a0dccc73a0/todos
+Content-Type: application/json
+
+{
+    "userId": 2,
+    "title": "Compiler bauen",
+    "completed": false,
+    "priority" : 1,
+    "createdAt": "2022-11-20T14:33:23.741Z"
+  },
+
+###
+POST https://crudcrud.com/api/8dc091c12fbb422da73321a0dccc73a0/todos
+Content-Type: application/json
+
+{
+    "userId": 3,
+    "title": "ChatGPT ausprobieren",
+    "completed": true,
+    "priority" : 1,
+    "createdAt": "2023-01-20T14:33:23.741Z"
+  },
+
+###
+POST https://crudcrud.com/api/8dc091c12fbb422da73321a0dccc73a0/todos
+Content-Type: application/json
+
+{
+    "userId": 1,
+    "title": "Trainieren",
+    "completed": false,
+    "priority" : 1,
+    "createdAt": "2022-01-20T14:33:23.741Z"
+  },
+
+###
+POST https://crudcrud.com/api/8dc091c12fbb422da73321a0dccc73a0/todos
+Content-Type: application/json
+
+{
+    "userId": 2,
+    "title": "Einkaufen gehen",
+    "completed": false,
+    "priority" : 2,
+    "createdAt": "2023-07-20T14:33:23.741Z"
+  },
+
+###
+POST https://crudcrud.com/api/8dc091c12fbb422da73321a0dccc73a0/todos
+Content-Type: application/json
+
+{
+    "userId": 3,
+    "title": "Cloud Computing lernen",
+    "completed": false,
+    "priority" : 3,
+    "createdAt": "2022-06-20T14:33:23.741Z"
+  },
+
+###
+POST https://crudcrud.com/api/8dc091c12fbb422da73321a0dccc73a0/todos
+Content-Type: application/json
+
+{
+    "userId": 1,
+    "title": "FaaS lernen",
+    "completed": false,
+    "priority" : 2,
+    "createdAt": "2023-02-20T14:33:23.741Z"
+  },
+
+###
+POST https://crudcrud.com/api/8dc091c12fbb422da73321a0dccc73a0/todos
+Content-Type: application/json
+
+{
+    "userId": 2,
+    "title": "Serverless lernen",
+    "completed": true,
+    "priority" : 1,
+    "createdAt": "2023-04-20T14:33:23.741Z"
+  },
+
+###
+POST https://crudcrud.com/api/8dc091c12fbb422da73321a0dccc73a0/todos
+Content-Type: application/json
+
+{
+    "userId": 3,
+    "title": "Kubernetes lernen",
+    "completed": false,
+    "priority" : 3,
+    "createdAt": "2022-01-20T14:33:23.741Z"
+  },
+
+###
+POST https://crudcrud.com/api/8dc091c12fbb422da73321a0dccc73a0/todos
+Content-Type: application/json
+
+{
+    "userId": 1,
+    "title": "Docker lernen",
+    "completed": false,
+    "priority" : 1,
+    "createdAt": "2022-07-20T12:33:23.741Z"
+  },
+
+###
+POST https://crudcrud.com/api/8dc091c12fbb422da73321a0dccc73a0/todos
+Content-Type: application/json
+
+{
+    "userId": 1,
+    "title": "Mit dem Hund rausgehen",
+    "completed": true,
+    "priority" : 2,
+    "createdAt": "2023-01-20T14:33:23.741Z"
+  },

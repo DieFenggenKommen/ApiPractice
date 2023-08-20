@@ -1,0 +1,45 @@
+
+
+### Get all todos
+
+GET https://crudcrud.com/api/8dc091c12fbb422da73321a0dccc73a0/todos
+
+### Get single todo
+GET https://crudcrud.com/api/8dc091c12fbb422da73321a0dccc73a0/todos/64e226734c636203e876d47d
+
+### Get single todo  (Not found)
+GET https://crudcrud.com/api/8dc091c12fbb422da73321a0dccc73a0/todos/64e234c636203e876d47d
+
+
+
+### Create todo (Bitte Daten anpassen)
+POST https://crudcrud.com/api/8dc091c12fbb422da73321a0dccc73a0/todos
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "title": "Die Katze füttern",
+  "completed": false,
+  "priority": 2,
+  "createdAt": "2023-08-20T14:33:23.741Z"
+}
+
+### Update todo mit PUT (Bitte Id und Daten anpassen)
+PUT https://crudcrud.com/api/8dc091c12fbb422da73321a0dccc73a0/todos/64e226734c636203e876d47d
+Content-Type: application/json
+
+{
+  "userId": 2,
+  "title": "Mit dem Hund rausgehen und ihn füttern",
+  "completed": true,
+  "priority": 2,
+  "createdAt": "2023-01-20T14:33:23.741Z"
+}
+
+### Get the updated todo
+GET https://crudcrud.com/api/8dc091c12fbb422da73321a0dccc73a0/todos/64e226734c636203e876d47d
+
+
+### Delete todo (Bitte Id anpassen)
+DELETE  https://crudcrud.com/api/8dc091c12fbb422da73321a0dccc73a0/todos/64e226734c636203e876d47d
+

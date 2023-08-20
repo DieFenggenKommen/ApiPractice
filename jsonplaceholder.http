@@ -1,0 +1,106 @@
+#    /posts          100 posts
+#    /comments       500 comments
+#    /albums         100 albums
+#    /photos         5000 photos
+#    /todos          200 todos
+#    /users          10 users
+#
+
+# Working GET requests
+
+### 1. Get all users
+GET https://jsonplaceholder.typicode.com/users
+
+### 2. Get user with id 7
+GET https://jsonplaceholder.typicode.com/users/7
+
+### 3. Get all posts
+GET https://jsonplaceholder.typicode.com/posts
+
+### 4. Get post with id 14
+GET https://jsonplaceholder.typicode.com/posts/14
+
+### 5. Get all comments
+GET https://jsonplaceholder.typicode.com/comments
+
+### 6. Get comment with id 56
+GET https://jsonplaceholder.typicode.com/comments/56
+
+### 7. Get all albums
+GET https://jsonplaceholder.typicode.com/albums
+
+### 8. Get album with id 10
+GET https://jsonplaceholder.typicode.com/albums/10
+
+### 9. Get all photos
+GET https://jsonplaceholder.typicode.com/photos
+
+### 10. Get photo with id 5000
+GET https://jsonplaceholder.typicode.com/photos/5000
+
+### Get an actual photo
+GET https://via.placeholder.com/600/6dd9cb
+
+
+# Failed GET requests
+
+### 1. Get user with id 11
+GET https://jsonplaceholder.typicode.com/users/11
+
+### 2. Get post with id 1000
+GET https://jsonplaceholder.typicode.com/posts/1000
+
+
+# Working POST requests
+
+### 1. Create a new user
+POST https://jsonplaceholder.typicode.com/users
+
+{
+  "name": "Fabian Graf",
+  "username": "fgraf",
+  "email": "f.graf@gmail.com"
+ }
+
+### 2. Create a new post
+POST https://jsonplaceholder.typicode.com/posts
+
+{
+  "userId": 1,
+  "title": "My first post",
+  "body": "This is my first post"
+}
+
+# Working PUT requests
+
+### 1. Update user with id 1
+PUT https://jsonplaceholder.typicode.com/users/1
+
+{
+  "name": "Fabian Graf",
+  "username": "fgraf",
+  "email": "f.graf@gmail.com"
+}
+
+### 2. Update post with id 1
+PUT https://jsonplaceholder.typicode.com/posts/1
+
+{
+  "userId": 1,
+  "title": "My first post",
+  "body": "This is my first post"
+}
+
+# Working PATCH requests
+
+### 1. Update user with id 1
+PATCH https://jsonplaceholder.typicode.com/users/1
+
+{
+  "name": "Fabian Graf"
+}
+
+# Working DELETE requests
+
+### 1. Delete user with id 1
+DELETE https://jsonplaceholder.typicode.com/users/1
