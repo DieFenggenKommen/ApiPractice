@@ -5,7 +5,7 @@
 GET https://crudcrud.com/api/8dc091c12fbb422da73321a0dccc73a0/todos
 
 ### Get single todo
-GET https://crudcrud.com/api/8dc091c12fbb422da73321a0dccc73a0/todos/64e226734c636203e876d47d
+GET https://crudcrud.com/api/8dc091c12fbb422da73321a0dccc73a0/todos/654d0224f3272103e862b3e3
 
 ### Get single todo  (Not found)
 GET https://crudcrud.com/api/8dc091c12fbb422da73321a0dccc73a0/todos/64e234c636203e876d47d
@@ -18,14 +18,14 @@ Content-Type: application/json
 
 {
   "userId": 1,
-  "title": "Die Katze füttern",
+  "title": "Dem Dinosaurus die Zähne putzen",
   "completed": false,
   "priority": 2,
-  "createdAt": "2023-08-20T14:33:23.741Z"
+  "createdAt": "2023-10-20T14:33:23.741Z"
 }
 
 ### Update todo mit PUT (Bitte Id und Daten anpassen)
-PUT https://crudcrud.com/api/8dc091c12fbb422da73321a0dccc73a0/todos/64e226734c636203e876d47d
+PUT https://crudcrud.com/api/8dc091c12fbb422da73321a0dccc73a0/todos/64e227b24c636203e876d480
 Content-Type: application/json
 
 {
@@ -33,11 +33,11 @@ Content-Type: application/json
   "title": "Mit dem Hund rausgehen und ihn füttern",
   "completed": true,
   "priority": 2,
-  "createdAt": "2023-01-20T14:33:23.741Z"
+  "createdAt": "2023-11-06T14:33:23.741Z"
 }
 
 ### Get the updated todo
-GET https://crudcrud.com/api/8dc091c12fbb422da73321a0dccc73a0/todos/64e226734c636203e876d47d
+GET https://crudcrud.com/api/8dc091c12fbb422da73321a0dccc73a0/todos/64e227b24c636203e876d480
 
 
 ### Delete todo (Bitte Id anpassen)
