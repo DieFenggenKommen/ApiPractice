@@ -1,0 +1,27 @@
+# RapidAPI
+# https://rapidapi.com
+
+@key = 58e43ba
+
+
+# WeatherAPI.com
+
+### Get current weather data for Pratteln
+GET https://weatherapi-com.p.rapidapi.com/current.json?q=Pratteln
+X-Rapidapi-Key: {{key}}
+X-Rapidapi-Host: weatherapi-com.p.rapidapi.com
+
+### Get current weather data for Airport LAX
+GET https://weatherapi-com.p.rapidapi.com/current.json?q=iata:LAX
+X-Rapidapi-Key: {{key}}
+X-Rapidapi-Host: weatherapi-com.p.rapidapi.com
+
+### Get current weather data for a point on the globe specified by latitude and longitude
+GET https://weatherapi-com.p.rapidapi.com/current.json?q=46.95,7.85
+X-Rapidapi-Key: {{key}}
+X-Rapidapi-Host: weatherapi-com.p.rapidapi.com
+
+### Get 3 days forcast for weather data for Pratteln
+GET https://weatherapi-com.p.rapidapi.com/forecast.json?q=Pratteln&days=3
+X-Rapidapi-Key: {{key}}
+X-Rapidapi-Host: weatherapi-com.p.rapidapi.com
